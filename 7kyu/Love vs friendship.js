@@ -33,5 +33,6 @@ function wordsToMarks(string) {
     for (let x = 0; x < arr.length; x ++) {
         result += map.get(arr[x]);
     }
+    
     return result;
 }
